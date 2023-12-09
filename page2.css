@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+h1 {
+
+    background-color: #1CB0F6;
+    color: white; 
+    font-family: 'Alex Brush', cursive; /* Apply the Alex Brush font */
+    padding: 10px; 
+    margin: 0;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #ddd; */
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 28%;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+
+    margin-top: 10%;
+
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-right: 30px;
+    text-align: right;
+    width: 90%;
+}
+
+label[for="taskDeadline"] + input {
+    margin-bottom: 50px;
+}
+
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="date"] {
+    width: 55%;
+    font-size: 18px;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.time input{
+    width: auto;
+    margin-right: 20px;
+}
+
+
+
+.form-group input[type="submit"] {
+    /* width: auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer; */
+
+    bottom: 20px; 
+    margin-left: 17%;
+    
+
+    margin-top: 40px;
+    
+
+    padding: 5px; 
+    background-color: #1CB0F6; 
+    color: white; 
+
+    width: 400px;
+
+
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+
+
+
+    
+}
+
+
+
